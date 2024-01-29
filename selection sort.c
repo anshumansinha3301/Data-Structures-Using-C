@@ -1,7 +1,6 @@
 #include <stdio.h>
 void swap(int *a, int *b);
 void selectionSort(int arr[], int n);
-
 int main() {
     int n;
 

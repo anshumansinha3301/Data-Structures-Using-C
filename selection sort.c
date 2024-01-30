@@ -3,7 +3,6 @@ void swap(int *a, int *b);
 void selectionSort(int arr[], int n);
 int main() {
     int n;
-
     printf("Enter the number of elements: ");
     scanf("%d", &n);
 

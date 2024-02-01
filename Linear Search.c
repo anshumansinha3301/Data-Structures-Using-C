@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int linearSearch(int arr[], int n, int target) {
     for (int i = 0; i < n; i++) {
         if (arr[i] == target) {
@@ -8,12 +7,10 @@ int linearSearch(int arr[], int n, int target) {
     }
     return -1;
 }
-
 int main() {
     int n, target;
     printf("Enter the size of the array: ");
     scanf("%d", &n);
-
     int arr[n];
     printf("Enter %d elements:\n", n);
     for (int i = 0; i < n; i++) {

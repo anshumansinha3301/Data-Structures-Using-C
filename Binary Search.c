@@ -10,8 +10,7 @@ int binarySearch(int arr[], int low, int high, int target) {
         else
             high = mid - 1;
     }
-    return -1;
-}
+    return -1;}
 int main() {
     int n, target;
     printf("Enter the size of the array: ");

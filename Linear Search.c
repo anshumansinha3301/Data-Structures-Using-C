@@ -20,7 +20,6 @@ int main() {
     scanf("%d", &target);
 
     int index = linearSearch(arr, n, target);
-
     if (index != -1) {
         printf("Element %d found at index %d\n", target, index);
     } else {

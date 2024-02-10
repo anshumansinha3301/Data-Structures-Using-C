@@ -24,7 +24,6 @@ void swap(int *a, int *b) {
     *a = *b;
     *b = temp;
 }
-
 void selectionSort(int arr[], int n) {
     int i, j, minIndex;
 

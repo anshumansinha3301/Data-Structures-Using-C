@@ -39,6 +39,7 @@ void merge(int arr[], int left, int mid, int right) {
         k++;
     }
 
+    
     free(leftArr);
     free(rightArr);
 }

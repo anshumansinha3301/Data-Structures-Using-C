@@ -23,7 +23,7 @@ void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
-}
+} 
 void selectionSort(int arr[], int n) {
     int i, j, minIndex;
 

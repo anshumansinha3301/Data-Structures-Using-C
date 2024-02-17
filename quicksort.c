@@ -28,7 +28,7 @@ void quicksort(int arr[], int low, int high) {
         quicksort(arr, pivot + 1, high);
     }
 }
-
+ 
 void printArray(int arr[], int size) {
     int i;
     for (i = 0; i < size; i++)

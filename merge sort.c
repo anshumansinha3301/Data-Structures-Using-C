@@ -7,7 +7,7 @@ void merge(int arr[], int left, int mid, int right) {
 
     int *leftArr = (int *)malloc(sizeof(int) * n1);
     int *rightArr = (int *)malloc(sizeof(int) * n2);
-
+ 
     for (i = 0; i < n1; i++)
         leftArr[i] = arr[left + i];
     for (j = 0; j < n2; j++)

@@ -5,7 +5,7 @@ void swap(int* a, int* b) {
     *a = *b;
     *b = t;
 }
- 
+  
 int partition(int arr[], int low, int high) {
     int pivot = arr[high]; 
     int i = (low - 1);    

@@ -23,7 +23,6 @@ int main() {
     }
     printf("Enter the element to search: ");
     scanf("%d", &target);
-
     int index = binarySearch(arr, 0, n - 1, target);
 
     if (index != -1) {

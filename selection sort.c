@@ -35,5 +35,5 @@ void selectionSort(int arr[], int n) {
             }
         }
         swap(&arr[minIndex], &arr[i]);
-    }
+    } 
 }

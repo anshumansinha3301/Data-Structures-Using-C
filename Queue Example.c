@@ -24,7 +24,6 @@ void enqueue(int value) {
         printf("Queue is full. Cannot insert %d.\n", value);
         return;
     }
-
     
     rear++;
     queue[rear] = value;

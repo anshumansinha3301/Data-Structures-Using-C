@@ -30,7 +30,6 @@ void merge(int arr[], int left, int mid, int right) {
         i++;
         k++;
     }
-
     while (j < n2) {
         arr[k] = rightArr[j];
         j++;

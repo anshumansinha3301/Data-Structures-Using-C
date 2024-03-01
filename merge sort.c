@@ -50,7 +50,6 @@ void mergeSort(int arr[], int left, int right) {
         merge(arr, left, mid, right);
     }
 }
-
 void printArray(int arr[], int size) {
     int i;
     for (i = 0; i < size; i++)

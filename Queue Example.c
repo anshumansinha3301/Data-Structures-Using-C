@@ -4,7 +4,6 @@ int queue[MAX_SIZE];
 int front = -1;
 int rear = -1;
 
-
 int isEmpty() {
     return front == -1 && rear == -1;
 }

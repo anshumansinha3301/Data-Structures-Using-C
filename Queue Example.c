@@ -11,7 +11,6 @@ int isEmpty() {
 int isFull() {
     return rear == MAX_SIZE - 1;
 }
-
 void enqueue(int value) {
   
     if (isEmpty()) {

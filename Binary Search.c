@@ -32,5 +32,4 @@ int main() {
     } else {
         printf("Element %d not found in the array\n", target);
     }
-    return 0;
-}
+    return 0;}

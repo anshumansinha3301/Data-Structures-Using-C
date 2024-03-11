@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #define MAX_SIZE 100
 
 struct Stack {
@@ -67,6 +66,5 @@ int main() {
 
     printf("Dequeued element: %d\n", dequeue(&stack1));
     printf("Dequeued element: %d\n", dequeue(&stack1));
-
     return 0;
 }

@@ -54,7 +54,6 @@ int dequeue(struct Stack *stack1) {
     }
     return pop(stack1);
 }
-
 int main() {
     struct Stack stack1, stack2;
     initialize(&stack1);

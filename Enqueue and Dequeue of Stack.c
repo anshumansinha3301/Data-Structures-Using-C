@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_SIZE 100
-
 struct Stack {
     int arr[MAX_SIZE];
     int top;

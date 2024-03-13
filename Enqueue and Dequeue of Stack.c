@@ -44,7 +44,6 @@ void enqueue(struct Stack *stack1, struct Stack *stack2, int value) {
         push(stack1, pop(stack2));
     }
 }
-
 int dequeue(struct Stack *stack1) {
     if (isEmpty(stack1)) {
         printf("Queue underflow\n");

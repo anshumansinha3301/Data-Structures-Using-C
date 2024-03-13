@@ -17,7 +17,6 @@ int isEmpty(struct Stack *stack) {
 int isFull(struct Stack *stack) {
     return stack->top == MAX_SIZE - 1;
 }
-
 void push(struct Stack *stack, int value) {
     if (isFull(stack)) {
         printf("Stack overflow\n");

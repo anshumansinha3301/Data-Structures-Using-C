@@ -17,7 +17,7 @@ void keyExpansion(const uint8_t *key, uint8_t *roundKeys) {
     (void)key;
     (void)roundKeys;
 }
-
+ 
 // SubBytes transformation
 void subBytes(uint8_t *state) {
     // Implement SubBytes logic here

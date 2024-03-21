@@ -80,7 +80,7 @@ int main() {
     printf("Original Text: %s\n", plaintext);
     printf("Encrypted Text: ");
 
-    int i;  // Declare i outside the loop in C89 mode
+    int i;  
     for (i = 0; i < 16; ++i) {
         printf("%02x", ciphertext[i]);
     }
@@ -89,3 +89,7 @@ int main() {
     printf("Decrypted Text: %s\n", decryptedtext);
 
     return 0;}
+
+
+
+    

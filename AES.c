@@ -5,7 +5,7 @@
 static const uint8_t sbox[256] = {
     // ... S-box values (omitted for brevity) ...
 };
-  
+   
 // AES round constants
 static const uint8_t rcon[10] = {
     // ... Round constants (omitted for brevity) ...

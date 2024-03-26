@@ -75,7 +75,7 @@ int main() {
 
     // Perform AES decryption
     aesDecrypt(ciphertext, key, decryptedtext);
-
+ 
     // Display results
     printf("Original Text: %s\n", plaintext);
     printf("Encrypted Text: ");

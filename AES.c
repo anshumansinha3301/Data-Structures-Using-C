@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
-// AES S-box
+// AES S-box 
 static const uint8_t sbox[256] = {
     // ... S-box values (omitted for brevity) ...
 };

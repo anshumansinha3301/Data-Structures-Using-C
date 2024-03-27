@@ -62,7 +62,7 @@ int main() {
     } else {
         printf("%d is not found in the tree.\n", searchKey);
     }
-
+ 
     searchKey = 12;
     if (search(root, searchKey)) {
         printf("%d is found in the tree.\n", searchKey);

@@ -10,7 +10,7 @@ static const uint8_t sbox[256] = {
 static const uint8_t rcon[10] = {
     // ... Round constants (omitted for brevity) ...
 };
- 
+  
 // Key expansion function
 void keyExpansion(const uint8_t *key, uint8_t *roundKeys) {
     // Implement key expansion logic here

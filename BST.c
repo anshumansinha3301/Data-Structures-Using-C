@@ -14,7 +14,7 @@ struct Node* createNode(int value) {
     newNode->right = NULL;
     return newNode;
 }
-
+ 
 struct Node* insert(struct Node* root, int value) {
     if (root == NULL) {
         return createNode(value);
@@ -61,7 +61,7 @@ int main() {
     printf("Inorder traversal of the BST: ");
     inorderTraversal(root);
     printf("\n");
-
+ 
     int searchValue = 40;
     struct Node* searchResult = search(root, searchValue);
     if (searchResult != NULL) {

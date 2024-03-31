@@ -61,7 +61,7 @@ int main() {
     printf("Inorder traversal of the BST: ");
     inorderTraversal(root);
     printf("\n");
-  
+   
     int searchValue = 40;
     struct Node* searchResult = search(root, searchValue);
     if (searchResult != NULL) {

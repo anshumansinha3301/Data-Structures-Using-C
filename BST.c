@@ -69,6 +69,6 @@ int main() {
     } else {
         printf("%d is not found in the BST.\n", searchValue);
     }
-
+ 
     return 0;
 }

@@ -57,7 +57,7 @@ int main() {
     insert(root, 70);
     insert(root, 60);
     insert(root, 80);
-    
+     
     printf("Inorder traversal of the BST: ");
     inorderTraversal(root);
     printf("\n");

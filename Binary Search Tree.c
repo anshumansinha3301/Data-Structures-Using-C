@@ -51,7 +51,7 @@ int main() {
     root = insert(root, 15);
     root = insert(root, 3);
     root = insert(root, 7);
-
+ 
     printf("Inorder traversal: ");
     inorderTraversal(root);
     printf("\n");

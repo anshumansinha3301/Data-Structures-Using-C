@@ -42,7 +42,7 @@ void addRoundKey(uint8_t *state, const uint8_t *roundKey) {
     (void)state;
     (void)roundKey;
 }
-
+ 
 // AES encryption function
 void aesEncrypt(const uint8_t *input, const uint8_t *key, uint8_t *output) {
     // Implement AES encryption logic here

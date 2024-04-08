@@ -49,7 +49,7 @@ void inorderTraversal(struct Node* root) {
     
 int main() {
     struct Node* root = NULL;
- 
+  
     root = insert(root, 50);
     insert(root, 30);
     insert(root, 20);

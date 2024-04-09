@@ -45,7 +45,7 @@ void inorderTraversal(struct Node* root) {
         inorderTraversal(root->right);
     }
 }
- 
+  
     
 int main() {
     struct Node* root = NULL;

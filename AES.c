@@ -3,7 +3,7 @@
 #include <string.h>
 // AES S-box  
 static const uint8_t sbox[256] = {
-    // ... S-box values (omitted for brevity) ...
+    // ... S-box values (omitted for brevity) ... (Advanced Encryption Standard)
 };
      
 // AES round constants

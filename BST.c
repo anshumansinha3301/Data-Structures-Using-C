@@ -37,7 +37,7 @@ struct Node* search(struct Node* root, int value) {
     }
     return search(root->right, value);
 }
-
+ 
 void inorderTraversal(struct Node* root) {
     if (root != NULL) {
         inorderTraversal(root->left);

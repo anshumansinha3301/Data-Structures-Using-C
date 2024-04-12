@@ -22,7 +22,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    
+     
     printf("Enter the element to search: ");
     scanf("%d", &target);
     int index = binarySearch(arr, 0, n - 1, target);

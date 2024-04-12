@@ -35,7 +35,7 @@ int search(Node* root, int data) {
     else if (data <= root->data) return search(root->left, data);
     else return search(root->right, data);
 }
-
+ 
 void inorderTraversal(Node* root) {
     if (root != NULL) {
         inorderTraversal(root->left);

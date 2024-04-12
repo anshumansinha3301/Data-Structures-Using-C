@@ -55,7 +55,7 @@ int main() {
     printf("Inorder traversal: ");
     inorderTraversal(root);
     printf("\n");
- 
+  
     int searchKey = 7;
     if (search(root, searchKey)) {
         printf("%d is found in the tree.\n", searchKey);

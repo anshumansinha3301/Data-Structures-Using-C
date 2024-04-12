@@ -28,7 +28,7 @@ Node* insert(Node* root, int data) {
     }
     return root;
 }
-
+ 
 int search(Node* root, int data) {
     if (root == NULL) return 0;
     else if (root->data == data) return 1;

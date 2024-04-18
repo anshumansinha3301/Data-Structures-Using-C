@@ -27,7 +27,7 @@ struct Node* insert(struct Node* root, int value) {
     }
     return root;
 }
-        
+         
 struct Node* search(struct Node* root, int value) {
     if (root == NULL || root->data == value) {
         return root;

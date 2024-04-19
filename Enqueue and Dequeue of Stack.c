@@ -55,7 +55,7 @@ int main() {
     struct Stack stack1, stack2;
     initialize(&stack1);
     initialize(&stack2);
-  
+   
     enqueue(&stack1, &stack2, 5);
     enqueue(&stack1, &stack2, 2);
     enqueue(&stack1, &stack2, 3);

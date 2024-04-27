@@ -11,7 +11,7 @@ void insertionSort(int arr[], int n) {
         arr[j + 1] = key;
     }
 }
-//code by Anshumansinha
+//code by Anshumansinha 
 void printArray(int arr[], int size) {
     int i;
     for (i = 0; i < size; i++)

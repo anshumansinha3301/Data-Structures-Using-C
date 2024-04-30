@@ -43,7 +43,7 @@ void inorderTraversal(Node* root) {
         inorderTraversal(root->right);
     }
 }
-
+ 
 int main() {
     Node* root = NULL;
     root = insert(root, 10);

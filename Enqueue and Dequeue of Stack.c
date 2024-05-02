@@ -39,7 +39,7 @@ void enqueue(struct Stack *stack1, struct Stack *stack2, int value) {
     }
        
     push(stack1, value);
-         
+          
     while (!isEmpty(stack2)) {
         push(stack1, pop(stack2));
     }

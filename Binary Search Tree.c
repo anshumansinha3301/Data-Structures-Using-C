@@ -6,7 +6,7 @@ typedef struct Node {
     struct Node* left;
     struct Node* right;
 } Node;
-    
+     
 Node* createNode(int value) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     if (newNode == NULL) {

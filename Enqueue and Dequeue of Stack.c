@@ -59,7 +59,7 @@ int main() {
     enqueue(&stack1, &stack2, 5);
     enqueue(&stack1, &stack2, 2);
     enqueue(&stack1, &stack2, 3);
-
+ 
     printf("Dequeued element: %d\n", dequeue(&stack1));
     printf("Dequeued element: %d\n", dequeue(&stack1));
     return 0;

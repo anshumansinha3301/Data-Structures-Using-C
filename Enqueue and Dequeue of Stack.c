@@ -24,7 +24,7 @@ void push(struct Stack *stack, int value) {
     }
     stack->arr[++stack->top] = value;
 }
-               
+                
 int pop(struct Stack *stack) {
     if (isEmpty(stack)) {
         printf("Stack underflow\n");

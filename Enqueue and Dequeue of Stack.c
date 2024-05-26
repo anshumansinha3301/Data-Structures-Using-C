@@ -13,7 +13,7 @@ void initialize(struct Stack *stack) {
 int isEmpty(struct Stack *stack) {
     return stack->top == -1;
 }
-   
+    
 int isFull(struct Stack *stack) {
     return stack->top == MAX_SIZE - 1;
 }

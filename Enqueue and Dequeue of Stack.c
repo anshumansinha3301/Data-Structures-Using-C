@@ -9,7 +9,7 @@ struct Stack {
 void initialize(struct Stack *stack) {
     stack->top = -1;
 }
-                   
+                    
 int isEmpty(struct Stack *stack) {
     return stack->top == -1;
 }
